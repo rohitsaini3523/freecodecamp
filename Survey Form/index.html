@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required></label>
+            <label id="email-label">Email <input id="email" type="email" placeholder="Enter your Email"
+                    required></label>
+            <label id="number-label">Age (optional)<input id="number" placeholder="Age" type="number" min=13
+                    max=100></label>
+            <label>Which option best describes your current role?<select id="dropdown">
+                    <option>Select an option</option>
+                    <option>Student</option>
+                    <option>Full Time Job</option>
+                    <option>Full Time Learner</option>
+                    <option>Prefer not to say</option>
+                </select></label>
+            <label>Would you recommend freeCodeCamp to a friend?</label>
+            <label><input type="radio" name="recommend" value="definitely">Definitely</label>
+            <label><input type="radio" value="maybe" name="recommend">Maybe</label>
+            <label><input type="radio" value="not-sure" name="recommend">Not sure</label>
+            <label>What is your favorite feature of freeCodeCamp?
+                <select id="dropdown">
+                    <option>Select an option</option>
+                    <option>Challenges</option>
+                    <option>Projects</option>
+                    <option>Community</option>
+                    <option>Open Source</option>
+                </select></label>
+            <label><input type="checkbox" value="Frontend-Project">Front-end Project</label>
+            <label><input type="checkbox" value="Backend-Project">Back-end Project</label>
+            <label><input type="checkbox" value="Data Visualization">Data Visualization</label>
+            <label><input type="checkbox" value="Challenges">Chalenges</label>
+            <label><input type="checkbox" value="Open Source Community">Open Source Community</label>
+            <label><input type="checkbox" value="Gitter help rooms">Gitter help rooms</label>
+            <label><input type="checkbox" value="Videos">Videos</label>
+            <label><input type="checkbox" value="City Meetups">City Meetups</label>
+            <label><input type="checkbox" value="Wiki">Wiki</label>
+            <label><input type="checkbox" value="Forum">Forum</label>
+            <label><input type="checkbox" value="Additional Courses">Additional Courses</label>
+            <textarea>
+        </textarea>
+        </fieldset>
+        <input type="submit" id="submit" value="Submit">
+    </form>
+</body>
+
+</html>

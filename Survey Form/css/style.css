@@ -1,0 +1,9 @@
+label,select{
+  display:block;
+  width:100%;
+}
+
+fieldset
+{
+  width:200px;
+}
